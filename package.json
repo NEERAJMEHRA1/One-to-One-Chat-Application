@@ -1,0 +1,16 @@
+{
+  "name": "one-to-one-chat-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:pm2": "pm2 start server.js -i max"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
